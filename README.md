@@ -247,4 +247,4 @@ Anggota Kelompok:
 1. Boy Harendy Simamora
 2. Grasia Manullang
 3. josep Marpaung
-4. Suchia Nikah Panjaitan
+4. Nikah Suchia Panjaitan
