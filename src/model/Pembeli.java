@@ -1,19 +1,27 @@
 package model;
 
 public class Pembeli {
-    protected String namaPembeli;
+
+    protected String namaPelanggan;
     protected int nomorAntrian;
 
-    public Pembeli(String namaPembeli, int nomorAntrian) {
-        this.namaPembeli = namaPembeli;
-        this.nomorAntrian = nomorAntrian;
+    public Pembeli(String namaPelanggan,
+                   int nomorAntrian) {
+
+        this.namaPelanggan =
+            namaPelanggan;
+
+        this.nomorAntrian =
+            nomorAntrian;
     }
 
-    public String getNamaPembeli() {
-        return namaPembeli;
+    public String getNamaPelanggan() {
+
+        return namaPelanggan;
     }
 
     public int getNomorAntrian() {
+
         return nomorAntrian;
     }
 }

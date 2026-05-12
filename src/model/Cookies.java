@@ -2,11 +2,9 @@
 
 package model;
 
-public class Cookies {
+public class Cookies extends Pembeli {
 
     private int id;
-    private String namaPelanggan;
-    private int nomorAntrian;
     private String namaMenu;
     private int harga;
     private int jumlah;
@@ -19,8 +17,9 @@ public class Cookies {
                    int jumlah,
                    int total) {
 
-        this.namaPelanggan = namaPelanggan;
-        this.nomorAntrian = nomorAntrian;
+        // constructor parent
+        super(namaPelanggan, nomorAntrian);
+
         this.namaMenu = namaMenu;
         this.harga = harga;
         this.jumlah = jumlah;
@@ -28,30 +27,27 @@ public class Cookies {
     }
 
     public int getId() {
+
         return id;
     }
 
-    public String getNamaPelanggan() {
-        return namaPelanggan;
-    }
-
-    public int getNomorAntrian() {
-        return nomorAntrian;
-    }
-
     public String getNamaMenu() {
+
         return namaMenu;
     }
 
     public int getHarga() {
+
         return harga;
     }
 
     public int getJumlah() {
+
         return jumlah;
     }
 
     public int getTotal() {
+
         return total;
     }
 }
