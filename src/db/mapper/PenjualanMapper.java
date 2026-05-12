@@ -5,6 +5,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import model.Cookies;
 
+
 public class PenjualanMapper {
 
     public void insert(Cookies c) {
